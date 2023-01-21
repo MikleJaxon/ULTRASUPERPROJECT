@@ -1,0 +1,59 @@
+﻿@page "/AddStudplan"
+@using System.Net.Http
+@inject HttpClient Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@using DISCREESTR.DOMAIN
+<div class="form-container">
+    @*@<input @bind="newId" placeholder="Айди" /><p></p>*@
+    <input @bind="newSpecname" placeholder="Имя специальности" /><p></p>
+    <input @bind="newKursNumb" placeholder="Номер курса" /><p></p>
+    <input @bind="newClocks" placeholder="Часы" /><p></p>
+    <input @bind="newSemestr" placeholder="Семестр" /><p></p>
+    <input @bind="newFormControl" placeholder="Айди" /><p></p>
+    <input @bind="newPrepId" placeholder="Айди" /><p></p>
+    <input @bind="newPredmName" placeholder="Айди" /><p></p>
+
+    <button class="custom-button" @onclick="AddStudplan">Добавить студенческий план</button>
+</div>
+
+@code {
+    private int newId;
+    private string? newFormControl;
+    private int newPrepId;
+    private string? newPredmName;
+    private string? newSpecname;
+    private int newKursNumb;
+    private int newClocks;
+    private int newSemestr;
+
+    [Parameter]
+    public EventCallback<string> OnAddStudplan { get; set; }
+
+    private async Task AddStudplan()
+    {
+        var studplan = new Studplan
+            {
+                //Id = newId,
+                Specname = newSpecname,
+                KursNumb = newKursNumb,
+                Clocks = newClocks,
+                Semestr = newSemestr,
+                FormControl = newFormControl,
+                PrepId = newPrepId,
+                PredmName = newPredmName,
+
+            };
+        //newId = 1;
+        newSpecname = "";
+        newKursNumb = 1;
+        newClocks = 180;
+        newSemestr = 1;
+        newFormControl = "";
+        newPrepId = 1;
+        newPredmName = "";
+
+        await Http.PostAsJsonAsync("https://localhost:7156/api/Studplan", studplan);
+        await OnAddStudplan.InvokeAsync("OK");
+    }
+}

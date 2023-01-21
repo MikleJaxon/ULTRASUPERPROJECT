@@ -1,0 +1,75 @@
+﻿@page "/liststudplan"
+@using System.Net.Http
+
+@inject HttpClient Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@using DISCREESTR.DOMAIN
+
+
+<h3>Список G</h3>
+<p>@MessageAdd</p>
+
+@if (fulfil && Studplans == null)
+{
+    <p>Пользователи отсутствуют.</p>
+}
+else if (!fulfil && Studplans == null)
+{
+    <p>Идет загрузка...</p>
+}
+
+@*@if (preps != null)
+{
+    <ul>
+        @foreach (var prep in preps)
+        {
+            <li>@prep.Name</li>
+        }
+    </ul>
+}*@
+@if (Studplans != null)
+{
+    <table>
+        <tr>
+            <th>Имя преподавателя</th>
+
+
+        </tr>
+        @foreach (var studplans in Studplans)
+        {
+            <tr>
+                <td>@studplans.Specname</td>
+
+
+                <td><a class="custom-button" href="AddStudplan">Добавить преподавателя</a></td>
+                <td><button class="delete-button" @onclick="() => DeleteStudplan(studplans.Id)">Удалить занятие</button></td>
+            </tr>
+        }
+    </table>
+}
+
+
+@code {
+    [Parameter]
+    public string? MessageAdd { get; set; }
+
+    private IEnumerable<Studplan> Studplans;
+    private bool fulfil = false;
+
+    protected override async Task OnParametersSetAsync() =>
+        Studplans = await Http.GetFromJsonAsync<Studplan[]>
+            ("https://localhost:7156/api/Studplan");
+
+    protected override async Task OnInitializedAsync()
+    {
+        Studplans = await Http.GetFromJsonAsync<IEnumerable<Studplan>>
+            ("https://localhost:7156/api/Studplan");
+        fulfil = true;
+    }
+    private async Task DeleteStudplan(int Id)
+    {
+        Console.WriteLine(Id);
+        await Http.DeleteAsync("https://localhost:7156/api/Studplan/" + Id);
+    }
+}

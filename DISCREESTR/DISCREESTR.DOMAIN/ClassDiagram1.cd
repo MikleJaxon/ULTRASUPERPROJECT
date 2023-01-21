@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DISCREESTR.DOMAIN.Prep">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAAAAAAAAAAAQAAAAAQCBAAAAAAACAAAIQAAAAA=</HashCode>
+      <FileName>Prep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DISCREESTR.DOMAIN.Studplan">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAAAAAAAAEAAAAAAAACAAAAARAAAAACEAAgA=</HashCode>
+      <FileName>Studplan.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Prep" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

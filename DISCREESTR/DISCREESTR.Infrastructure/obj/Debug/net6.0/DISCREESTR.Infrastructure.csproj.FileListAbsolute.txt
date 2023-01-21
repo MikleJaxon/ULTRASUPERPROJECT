@@ -1,0 +1,17 @@
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\bin\Debug\net6.0\DISCREESTR.Infrastructure.deps.json
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\bin\Debug\net6.0\DISCREESTR.Infrastructure.runtimeconfig.json
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\bin\Debug\net6.0\DISCREESTR.Infrastructure.dll
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\bin\Debug\net6.0\DISCREESTR.Infrastructure.pdb
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\bin\Debug\net6.0\DISCREESTR.DOMAIN.dll
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\bin\Debug\net6.0\DISCREESTR.DOMAIN.pdb
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.csproj.AssemblyReference.cache
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.AssemblyInfoInputs.cache
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.AssemblyInfo.cs
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.csproj.CoreCompileInputs.cache
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.csproj.CopyComplete
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.dll
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\refint\DISCREESTR.Infrastructure.dll
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.pdb
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\DISCREESTR.Infrastructure.genruntimeconfig.cache
+D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\DISCREESTR.Infrastructure\obj\Debug\net6.0\ref\DISCREESTR.Infrastructure.dll

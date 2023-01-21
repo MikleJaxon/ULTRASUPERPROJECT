@@ -1,0 +1,77 @@
+﻿@page "/listpredm"
+@using System.Net.Http
+
+@inject HttpClient Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+@using DISCREESTR.DOMAIN
+
+
+<h3>Список G</h3>
+<p>@MessageAdd</p>
+
+@if (fulfil && Preps == null)
+{
+    <p>Пользователи отсутствуют.</p>
+}
+else if (!fulfil && Preps == null)
+{
+    <p>Идет загрузка...</p>
+}
+
+@*@if (preps != null)
+{
+    <ul>
+        @foreach (var prep in preps)
+        {
+            <li>@prep.Name</li>
+        }
+    </ul>
+}*@
+@if (Preps != null)
+{
+    <table>
+        <tr>
+            <th>Имя преподавателя</th>
+            <th>id преподавателя</th>
+
+
+        </tr>
+        @foreach (var preps in Preps)
+        {
+            <tr>
+                <td>@preps.Name</td>
+                <td>@preps.Id</td>
+
+
+                <td><a class="custom-button" href="AddPrep">Добавить преподавателя</a></td>
+                <td><button class="delete-button" @onclick="() => DeletePredm(preps.Id)">Удалить занятие</button></td>
+            </tr>
+        }
+    </table>
+}
+
+
+@code {
+    [Parameter]
+    public string? MessageAdd { get; set; }
+
+    private IEnumerable<Prep> Preps;
+    private bool fulfil = false;
+
+    protected override async Task OnParametersSetAsync() =>
+        Preps = await Http.GetFromJsonAsync<Prep[]>
+            ("https://localhost:7156/api/Prep");
+
+    protected override async Task OnInitializedAsync()
+    {
+        Preps = await Http.GetFromJsonAsync<IEnumerable<Prep>>
+            ("https://localhost:7156/api/Prep");
+        fulfil = true;
+    }
+    private async Task DeletePredm(int Id)
+    {
+        Console.WriteLine(Id);
+        await Http.DeleteAsync("https://localhost:7156/api/Prep/" + Id);
+    }
+}
