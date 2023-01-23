@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dcY/u0pTItUX7J+MG2SAzN60s9p9Q6JhmPb0aW8PGeaMm/HSSsEkPDwGpYc7MelDMFT3AYojWsS4GXF4Y8Oxow==",
+  "dgSpecHash": "IHO4jOQoYFCB/iNwj5Twi8rnXILQNaCv4z8PfPFtUqYgn+SbR/Q7OffjYyjIC1ZJjf3vqnroPTxDuStNxJSDyA==",
   "success": true,
-  "projectFilePath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Server\\BlazorApp1.Server.csproj",
+  "projectFilePath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Server\\BlazorApp1.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Михаил\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.11\\microsoft.aspnetcore.authorization.6.0.11.nupkg.sha512",
     "C:\\Users\\Михаил\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.11\\microsoft.aspnetcore.components.6.0.11.nupkg.sha512",

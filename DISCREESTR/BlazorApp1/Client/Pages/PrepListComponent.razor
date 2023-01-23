@@ -5,14 +5,14 @@
 @using System.Net.Http.Json
 @using System.Threading.Tasks
 @using DISCREESTR.DOMAIN
+<PageTitle>Список планов</PageTitle>
 
-
-<h3>Список G</h3>
+<h3>Список Преподавателй</h3>
 <p>@MessageAdd</p>
 
 @if (fulfil && Preps == null)
 {
-    <p>Пользователи отсутствуют.</p>
+    <p>Преподаватели отсутствуют.</p>
 }
 else if (!fulfil && Preps == null)
 {
@@ -33,7 +33,9 @@ else if (!fulfil && Preps == null)
     <table>
         <tr>
             <th>Имя преподавателя</th>
+            <th>Фамилия</th>
             <th>id преподавателя</th>
+            <th>Телефон</th>
 
 
         </tr>
@@ -41,7 +43,9 @@ else if (!fulfil && Preps == null)
         {
             <tr>
                 <td>@preps.Name</td>
+                <td>@preps.Surname</td>
                 <td>@preps.Id</td>
+                <td>@preps.Phone</td>
 
 
                 <td><a class="custom-button" href="AddPrep">Добавить преподавателя</a></td>

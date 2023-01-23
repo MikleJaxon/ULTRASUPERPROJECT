@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XgQgEoy/NxoTebwRgGZIVgWm1WgXIbRzgbj36A2PqGk0YwyK0PZAqynRCglACMFxgr1S6UxYnD4EJO3jk2mu3w==",
+  "dgSpecHash": "XJQnk99QzWMmGQaJrZzRFca4UPDzlgs5kufwtOcZSQ4ndeWgTd2I3/P/QXUJDSnL3bmmRx6zOvAn5bez/v3xDg==",
   "success": true,
-  "projectFilePath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj",
+  "projectFilePath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Михаил\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Михаил\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

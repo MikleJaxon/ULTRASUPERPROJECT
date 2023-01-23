@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj": {}
+    "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj": {
+    "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj",
+        "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj",
         "projectName": "DISCREESTR.DOMAIN",
-        "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj",
+        "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj",
         "packagesPath": "C:\\Users\\Михаил\\.nuget\\packages\\",
-        "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\obj\\",
+        "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Михаил\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj": {
+    "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj",
+        "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj",
         "projectName": "DISCREESTR.Infrastructure",
-        "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj",
+        "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\DISCREESTR.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Михаил\\.nuget\\packages\\",
-        "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\obj\\",
+        "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Михаил\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj": {
-                "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj"
+              "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj": {
+                "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj"
               }
             }
           }

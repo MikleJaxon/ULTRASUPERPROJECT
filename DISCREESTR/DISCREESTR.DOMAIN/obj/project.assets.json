@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj",
+      "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj",
       "projectName": "DISCREESTR.DOMAIN",
-      "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj",
+      "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj",
       "packagesPath": "C:\\Users\\Михаил\\.nuget\\packages\\",
-      "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\obj\\",
+      "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Михаил\\AppData\\Roaming\\NuGet\\NuGet.Config",

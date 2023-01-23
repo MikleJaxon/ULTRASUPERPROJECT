@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {}
+    "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {}
   },
   "projects": {
-    "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
+    "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+        "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
         "projectName": "BlazorApp1.Shared",
-        "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
+        "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj",
         "packagesPath": "C:\\Users\\Михаил\\.nuget\\packages\\",
-        "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\obj\\",
+        "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Михаил\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1819,11 +1819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
+      "projectUniqueName": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
       "projectName": "BlazorApp1.Client",
-      "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
+      "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Client\\BlazorApp1.Client.csproj",
       "packagesPath": "C:\\Users\\Михаил\\.nuget\\packages\\",
-      "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Client\\obj\\",
+      "outputPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Михаил\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1840,11 +1840,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
-              "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj"
+            "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj": {
+              "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\BlazorApp1\\Shared\\BlazorApp1.Shared.csproj"
             },
-            "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj": {
-              "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj"
+            "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj": {
+              "projectPath": "D:\\wwwflash\\ULTRASUPERPROJECT\\ULTRASUPERPROJECT\\DISCREESTR\\DISCREESTR.DOMAIN\\DISCREESTR.DOMAIN.csproj"
             }
           }
         }

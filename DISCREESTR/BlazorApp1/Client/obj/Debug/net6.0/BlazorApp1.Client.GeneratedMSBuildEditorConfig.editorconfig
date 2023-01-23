@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorApp1.Client
 build_property.RootNamespace = BlazorApp1.Client
-build_property.ProjectDir = D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\BlazorApp1\Client\
+build_property.ProjectDir = D:\wwwflash\ULTRASUPERPROJECT\ULTRASUPERPROJECT\DISCREESTR\BlazorApp1\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\wwwflash\ULTRASUPERPROJECT\DISCREESTR\BlazorApp1\Client
+build_property.MSBuildProjectDirectory = D:\wwwflash\ULTRASUPERPROJECT\ULTRASUPERPROJECT\DISCREESTR\BlazorApp1\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/App.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/AddPrepComponent.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/AddPrepComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUHJlcENvbXBvbmVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/AddStudplanComponent.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/AddStudplanComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU3R1ZHBsYW5Db21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/Counter.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/FetchData.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/Index.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/PrepListComponent.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/PrepListComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlcExpc3RDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/StudplanListComponent.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Pages/StudplanListComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3R1ZHBsYW5MaXN0Q29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Shared/SurveyPrompt.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/_Imports.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Shared/MainLayout.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-s8xsnq6cv2
 
-[D:/wwwflash/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Shared/NavMenu.razor]
+[D:/wwwflash/ULTRASUPERPROJECT/ULTRASUPERPROJECT/DISCREESTR/BlazorApp1/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-aw7s1uks9t

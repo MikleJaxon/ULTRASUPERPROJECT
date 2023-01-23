@@ -6,13 +6,13 @@
 @using System.Threading.Tasks
 @using DISCREESTR.DOMAIN
 
-
-<h3>Список G</h3>
+<PageTitle>Список планов</PageTitle>
+<h3>Список планов</h3>
 <p>@MessageAdd</p>
 
 @if (fulfil && Studplans == null)
 {
-    <p>Пользователи отсутствуют.</p>
+    <p>Планы отсутствуют.</p>
 }
 else if (!fulfil && Studplans == null)
 {
@@ -32,15 +32,26 @@ else if (!fulfil && Studplans == null)
 {
     <table>
         <tr>
-            <th>Имя преподавателя</th>
+            <th>Название специальности</th>
+            
+            <th>Айди преподавателя</th>
+            <th>Название предмета</th>
+            <th>Форма контроля</th>
+            <th>Номер курса</th>
 
-
+            <th>Часы</th>
+            <th>Семестр</th>
         </tr>
         @foreach (var studplans in Studplans)
         {
             <tr>
                 <td>@studplans.Specname</td>
-
+                <td>@studplans.PrepId</td>
+                <td>@studplans.PredmName</td>
+                <td>@studplans.KursNumb</td>
+                <td>@studplans.Clocks</td>
+                <td>@studplans.FormControl</td>
+                <td>@studplans.Semestr</td>
 
                 <td><a class="custom-button" href="AddStudplan">Добавить преподавателя</a></td>
                 <td><button class="delete-button" @onclick="() => DeleteStudplan(studplans.Id)">Удалить занятие</button></td>

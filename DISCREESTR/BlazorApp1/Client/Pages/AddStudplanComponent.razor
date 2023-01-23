@@ -4,15 +4,17 @@
 @using System.Net.Http.Json
 @using System.Threading.Tasks
 @using DISCREESTR.DOMAIN
+<PageTitle>Добавление плана</PageTitle>
+
 <div class="form-container">
     @*@<input @bind="newId" placeholder="Айди" /><p></p>*@
     <input @bind="newSpecname" placeholder="Имя специальности" /><p></p>
     <input @bind="newKursNumb" placeholder="Номер курса" /><p></p>
     <input @bind="newClocks" placeholder="Часы" /><p></p>
     <input @bind="newSemestr" placeholder="Семестр" /><p></p>
-    <input @bind="newFormControl" placeholder="Айди" /><p></p>
-    <input @bind="newPrepId" placeholder="Айди" /><p></p>
-    <input @bind="newPredmName" placeholder="Айди" /><p></p>
+    <input @bind="newFormControl" placeholder="Форма контроля" /><p></p>
+    <input @bind="newPrepId" placeholder="Айди преподавателя" /><p></p>
+    <input @bind="newPredmName" placeholder="Название предмета" /><p></p>
 
     <button class="custom-button" @onclick="AddStudplan">Добавить студенческий план</button>
 </div>
